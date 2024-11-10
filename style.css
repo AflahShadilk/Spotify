@@ -1,0 +1,536 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-body{
+    height: fit-content;
+    width: 100%;
+    background-color: black;
+}
+.navigation-bar{
+    width: 100%;
+    height: 95px;
+    background-color: black;
+    position: fixed;
+    z-index: 3;
+}
+.nav-emplem{
+    padding-left: 10px;
+    padding-top: 12px;
+    float: left;
+}
+.nav-homeemplem{
+    padding-top: 35px;
+    margin-left: 25%;
+    cursor: pointer;
+    float: left;
+}
+.nav-roundbar{
+    float: left;
+    border: 2px;
+    border-color: black;
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 43px;
+    width: 440px;
+    background-color: rgb(53, 50, 50);
+    border-radius: 100px;
+    cursor: pointer;
+}
+.nav-search{
+    margin-top: 8px;
+    margin-left:5px;
+    float: left;
+}
+.search-icon{
+    height: 27px;
+    width: 29px;
+}
+.input-container input{
+    background-color: transparent;
+    width: 235px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.nav-line{
+    margin-left: 370px;
+    margin-top: 1px;
+    position: absolute;
+    float: left;
+}
+.nav-flip{
+    position: absolute  ;
+    width: 35px;
+    height: 25px;
+    margin-left: 385px;
+    margin-top: 5px;
+}
+.nav-Sign{
+    float: left;
+    margin-top: 35px;
+    margin-left: 310px;
+}
+.button-1{
+    height: 40px;
+    width: 100px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #c1bfbf;
+    background-color: transparent;
+    border-radius: 100px;
+    border: none;
+    cursor:pointer;
+}
+.button-1:hover{
+    align-content: center;
+}
+.nav-login{
+    float: left;
+    margin-top: 30px;
+    margin-left: 33px
+}
+.button-2{
+    height: 50px;
+    width: 115px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #000000;
+    background-color: white;
+    border-radius: 100px;
+    padding: 5px;
+    border: none;
+    cursor:pointer;
+}
+.first-body{
+    width: 30%;
+    height: 800px;
+    background-color:#070707;
+    border-radius: 10px;
+    display:grid;
+    position: fixed;
+    margin-top: 90px;
+    grid-template-rows: repeat(3,1fr);
+    
+    
+}
+.first-block{
+    height: 55px;
+    width: 448px;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 10);
+    float: left;
+    position: fixed;
+    margin-left: 4px;
+}
+.folder{
+    float:left;
+    width: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+.word{
+    float: left;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.plus-icon{
+    float: left;
+    height: 25px;
+    width: 25px;
+    margin-left: 250px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.second-block{
+    height: 305px;
+    width: 453px;
+    background-color: rgb(10, 10, 10);
+    margin-top: 55px;
+    margin-left: 0px;
+    position: fixed;
+    position: relative;
+    float: left;
+}
+.inner1{
+    float: left;
+    height: 140px;
+    width: 445px;
+    border-radius: 20px;
+    background-color: #252424;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+h1{
+    font-size: medium;
+    font-weight:bold;
+    margin-left: 10px;
+    color: #fff;
+}
+.p{
+    font-size:medium;
+    font-weight: 800px;
+    color: white;
+    margin-left: 10px;
+}
+.button-4{
+    background-color: white;
+    width: 140px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    font-weight: bold
+}
+.inner-2{
+    float: left;
+    height: 140px;
+    width: 445px;
+    border-radius: 20px;
+    background-color: #252424;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.third-block{
+    float: left;
+    width: 453px;
+    height: 150px;
+    background-color: rgb(10, 10, 10);
+    padding-top: 10px;   
+}
+.first-row{
+    font-size: small;
+    cursor: pointer;
+    padding-left: 15px;
+}
+.p-1{
+    float: left;
+    color: white;
+    padding-left: 5px;
+    margin-right: 20px;
+}
+.p-2{
+    float: left;
+    padding-left: 20px;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+}
+.p-3{
+    float: left;
+    font-size: medium;
+    font-weight: 600;
+    color: white;
+    margin-left: -153px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+.p-3:hover{
+    text-decoration: underline;
+}
+.block-4{
+    width: 453px;
+    height: 70px;
+    background-color: #070707;
+}
+.language{
+    height: 30px;
+    width: 100px;
+    border-color: white;
+    border-style: solid;
+    background-color: transparent;
+    border-radius: 20px;
+    border-width: 1px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.lang-img{
+    margin-left: 5px;
+    margin-top: 2px;
+    position: absolute;
+    float: left;
+    
+}
+.select-lang{
+    margin-left: 35px;
+    margin-top: 3px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+}
+.second-body{
+    float: left;
+    width: 69%;
+    height: 590px;
+    margin-left: 460px;
+    background-color: rgb(22, 24, 24);
+    border-radius: 10px;
+    margin-top: 90px;
+    display: grid;
+    z-index: 2;
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+}
+.heading{
+    font-size:x-large;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    cursor: pointer;
+}
+.heading:hover{
+    text-decoration:underline ;
+}
+.block-1{
+    margin-top: -50px;
+    width: 100%;
+    height: 235px;
+    border-radius: 20px;
+}
+.cards{
+    display: flexbox;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+}
+.card-1{
+    transition: background-color 0.3s, color 0.3s;
+    float: left;
+    border-radius: 10px;
+    width: 165px;
+    padding-left: 5px;
+    height: 245px;
+}
+.card-1:hover{
+    background-color: rgb(53, 45, 45,0.5);
+}
+.picture-div{
+    width: 100%;
+    height: 80%;
+}
+.under-paras{
+    width: 100%;
+    height: 20%;
+    font-size: smaller;
+    color: rgb(184, 184, 184);
+    transition: background-color 0.3s, color 0.3s;
+}
+.play-bttn-1{
+    position: absolute;
+    top: 115px;
+    left: 100px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.card-1:hover .play-bttn-1{
+    opacity: 50;
+}
+.card-2{
+    float: left;
+    transition: background-color 0.3s, color 0.3s;
+    float: left;
+    border-radius: 10px;
+    width: 165px;
+    padding-left: 5px;
+    height: 245px;
+}
+.card-2:hover{
+    background-color: rgb(53, 45, 45,0.5);
+}
+.play-bttn-2{
+    position: absolute;
+    top: 115px;
+    left: 265px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.card-2:hover .play-bttn-2{
+    opacity: 50;
+}
+.card-3{
+    float: left;
+    transition: background-color 0.3s, color 0.3s;
+    float: left;
+    border-radius: 10px;
+    width: 165px;
+    padding-left: 5px;
+    height: 245px;
+}
+.card-3:hover{
+    background-color: rgb(53, 45, 45,0.5);
+}
+.play-bttn-3{
+    position: absolute;
+    top: 115px;
+    left: 430px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.card-3:hover .play-bttn-3{
+    opacity: 50;
+}
+.card-4{
+    float: left;
+    transition: background-color 0.3s, color 0.3s;
+    float: left;
+    border-radius: 10px;
+    width: 165px;
+    padding-left: 5px;
+    height: 245px;
+}
+.card-4:hover{
+    background-color: rgb(53, 45, 45,0.5);
+}
+.play-bttn-4{
+    position: absolute;
+    top: 115px;
+    left: 595px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.card-4:hover .play-bttn-4{
+    opacity: 50;
+}
+.card-5{
+    float: left;
+    transition: background-color 0.3s, color 0.3s;
+    float: left;
+    border-radius: 10px;
+    width: 165px;
+    padding-left: 5px;
+    height: 245px;
+}
+.card-5:hover{
+    background-color: rgb(53, 45, 45,0.5);
+}
+.play-bttn-5{
+    position: absolute;
+    top: 115px;
+    left: 770px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.card-5:hover .play-bttn-5{
+    opacity: 50;
+}
+.card-6{
+    float: left;
+    transition: background-color 0.3s, color 0.3s;
+    float: left;
+    border-radius: 10px;
+    width: 165px;
+    padding-left: 5px;
+    height: 245px;
+}
+.card-6:hover{
+    background-color: rgb(53, 45, 45,0.5);
+}
+.play-bttn-6{
+    position: absolute;
+    top: 115px;
+    left: 935px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.card-6:hover .play-bttn-6{
+    opacity: 50;
+}
+.block-2{
+    float: left;
+    width: 100%;
+    height: 235px;
+    margin-top: 100px;
+    border-radius: 20px;    
+}
+.block-3{
+    float: left;
+    width: 100%;
+    height: 395px;
+    margin-top: 235px;
+    border-radius: 10px;
+    background-color: rgb(10, 10, 10);
+}
+.footer-content{
+    height: 175px;
+    width: 740px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 60px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.table{
+    float:left ;
+    border-collapse: separate;
+    border-spacing: 48px 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(10, 10, 10);
+}
+.effect:hover{
+    text-decoration: underline;
+}
+hr{
+    width: 1010px;
+}
+
+.Last-icon{
+    height: 165px;
+    width: 45px;
+    position: absolute;
+    right: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.icon-1{
+    background-color: transparent;
+    height: 45px;
+    width: 43px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+    position: inherit;
+    margin-top: 645px;
+}
+.icon-1:hover{
+    background-color: #c1bfbf;
+}
+.icon-2{
+    position: inherit;
+    background-color: transparent;
+    height: 45px;
+    width: 43px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 65px;
+    margin-top: 645px;
+}
+.icon-2:hover{
+    background-color: #c1bfbf;
+}
+.icon-3{
+    position: inherit;
+    background-color: transparent;
+    height: 45px;
+    width: 43px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 120px;
+    margin-top: 645px;
+}
+.icon-3:hover{
+    background-color: #c1bfbf;
+}
+.final{
+    color: rgb(191, 188, 188);
+    margin-top: 20px;
+}
